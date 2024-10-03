@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            string bankHeist = "Bank Heist";
+            string activity = "Bank Heist";
 
             string currency = "Dollars";
             
@@ -18,7 +18,7 @@
             
             decimal actualBankHeistAmount = 500.00m;
             
-            Console.WriteLine($"Today we are planning for a bank heist with {teamMembers} teammembers" +
+            Console.WriteLine($"Today we are planning for a {activity} with {teamMembers} teammembers" +
                               $" to obtain {goalHeistAmount} {currency}." +
                               $"\nUnfortunately we only obtained {actualBankHeistAmount} {currency} from " +
                               $"{vaultNumber}." +
